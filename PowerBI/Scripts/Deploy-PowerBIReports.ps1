@@ -5,7 +5,7 @@
 
     #[Parameter(Mandatory = $true)]
     [ValidateNotNullOrEmpty()]
-	[string] $DatasetWorkspaceName = "PowerBI_CICD_Dev",
+	[string] $DatasetWorkspaceName = "Dev",
 
     #[Parameter(Mandatory = $true)]
     [ValidateNotNullOrEmpty()]
