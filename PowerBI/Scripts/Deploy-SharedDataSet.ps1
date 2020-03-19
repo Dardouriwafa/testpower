@@ -5,7 +5,7 @@
 
     #[Parameter(Mandatory = $true)]
     [ValidateNotNullOrEmpty()]
-	[string] $WorkspaceName = "PowerBI_CICD_Dev",
+	[string] $WorkspaceName = "",
 
     #[Parameter(Mandatory = $true)]
     [ValidateNotNullOrEmpty()]
@@ -13,7 +13,7 @@
 
     #[Parameter(Mandatory = $true)]
     [ValidateNotNullOrEmpty()]
-    [string] $BuildAgentLogin = "",
+    [string] $BuildAgentLogin = "Wafa-Tests",
 
     #[Parameter(Mandatory = $true)]
     [ValidateNotNullOrEmpty()]
